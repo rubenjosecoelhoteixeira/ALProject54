@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<DataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Result" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Result" msdata:Locale="">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="No_" type="xs:string" minOccurs="0" />
+                <xs:element name="Sales__LCY_" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Profit__LCY_" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Country_Region_Code" type="xs:string" minOccurs="0" />
+                <xs:element name="City" type="xs:string" minOccurs="0" />
+                <xs:element name="Salesperson_Code" type="xs:string" minOccurs="0" />
+                <xs:element name="SalesPersonName" type="xs:string" minOccurs="0" />
+                <xs:element name="CountryRegionName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Result>
+    <Name>Spotsmeyer's Furnishings</Name>
+    <No_>01121212</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>US</Country_Region_Code>
+    <City>Miami</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>USA</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Progressive Home Furnishings</Name>
+    <No_>01445544</No_>
+    <Sales__LCY_>1499.03</Sales__LCY_>
+    <Profit__LCY_>305.13</Profit__LCY_>
+    <Country_Region_Code>US</Country_Region_Code>
+    <City>Chicago</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>USA</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>New Concepts Furniture</Name>
+    <No_>01454545</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>US</Country_Region_Code>
+    <City>Atlanta</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>USA</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Candoxy Canada Inc.</Name>
+    <No_>01905893</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CA</Country_Region_Code>
+    <City>Thunder Bay</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Canada</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Elkhorn Airport</Name>
+    <No_>01905899</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CA</Country_Region_Code>
+    <City>Elkhorn</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Canada</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>London Candoxy Storage Campus</Name>
+    <No_>01905902</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CA</Country_Region_Code>
+    <City>London</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Canada</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>The Cannon Group PLC</Name>
+    <No_>10000</No_>
+    <Sales__LCY_>17100.96</Sales__LCY_>
+    <Profit__LCY_>5338.26</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Birmingham</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Selangorian Ltd.</Name>
+    <No_>20000</No_>
+    <Sales__LCY_>6510.64</Sales__LCY_>
+    <Profit__LCY_>2511.94</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Coventry</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Metatorad Malaysia Sdn Bhd</Name>
+    <No_>20309920</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>MY</Country_Region_Code>
+    <City>PETALING JAYA, Selangor</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Malaysia</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Highlights Electronics Sdn Bhd</Name>
+    <No_>20312912</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>MY</Country_Region_Code>
+    <City>KUALA LUMPUR</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Malaysia</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>TraxTonic Sdn Bhd</Name>
+    <No_>20339921</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>MY</Country_Region_Code>
+    <City>KUCHING, Sarawak</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Malaysia</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Somadis</Name>
+    <No_>21233572</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>MA</Country_Region_Code>
+    <City>AGDAL-RABAT</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Morocco</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Maronegoce</Name>
+    <No_>21245278</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>MA</Country_Region_Code>
+    <City>CASABLANCA</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Morocco</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>ElectroMAROC</Name>
+    <No_>21252947</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>MA</Country_Region_Code>
+    <City>TEMARA</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Morocco</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Zanlan Corp.</Name>
+    <No_>27090917</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>ZA</Country_Region_Code>
+    <City>Carletonville</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>South Africa</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Karoo Supermarkets</Name>
+    <No_>27321782</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>ZA</Country_Region_Code>
+    <City>Bloemfontein</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>South Africa</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Durbandit Fruit Exporters</Name>
+    <No_>27489991</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>ZA</Country_Region_Code>
+    <City>Durban</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>South Africa</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>John Haddock Insurance Co.</Name>
+    <No_>30000</No_>
+    <Sales__LCY_>6142.9</Sales__LCY_>
+    <Profit__LCY_>2921</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Manchester</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Woonboulevard Kuitenbrouwer</Name>
+    <No_>31505050</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>NL</Country_Region_Code>
+    <City>Zutphen</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Netherlands</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Meersen Meubelen</Name>
+    <No_>31669966</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>NL</Country_Region_Code>
+    <City>Arnhem</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Netherlands</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Candoxy Nederland BV</Name>
+    <No_>31987987</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>NL</Country_Region_Code>
+    <City>Amsterdam</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Netherlands</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Nieuwe Zandpoort NV</Name>
+    <No_>32124578</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>BE</Country_Region_Code>
+    <City>Herentals</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Belgium</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Antarcticopy</Name>
+    <No_>32656565</No_>
+    <Sales__LCY_>2582.8</Sales__LCY_>
+    <Profit__LCY_>726</Profit__LCY_>
+    <Country_Region_Code>BE</Country_Region_Code>
+    <City>Antwerpen</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Belgium</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Lovaina Contractors</Name>
+    <No_>32789456</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>BE</Country_Region_Code>
+    <City>Leuven</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Belgium</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Francematic</Name>
+    <No_>33000019</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>FR</Country_Region_Code>
+    <City>PLAISIR</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>France</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Parmentier Boutique</Name>
+    <No_>33002984</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>FR</Country_Region_Code>
+    <City>PARIS</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>France</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Livre Importants</Name>
+    <No_>33022842</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>FR</Country_Region_Code>
+    <City>ESBLY</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>France</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Libros S.A.</Name>
+    <No_>34010100</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>ES</Country_Region_Code>
+    <City>Barcelona</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Spain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Corporación Beta</Name>
+    <No_>34010199</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>ES</Country_Region_Code>
+    <City>Valencia</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Spain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Helguera industrial</Name>
+    <No_>34010602</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>ES</Country_Region_Code>
+    <City>Madrid</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Spain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Bilabankinn</Name>
+    <No_>35122112</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>IS</Country_Region_Code>
+    <City>Kopavogur</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Iceland</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Gagn &amp; Gaman</Name>
+    <No_>35451236</No_>
+    <Sales__LCY_>877.32</Sales__LCY_>
+    <Profit__LCY_>168.72</Profit__LCY_>
+    <Country_Region_Code>IS</Country_Region_Code>
+    <City>Hafnafjordur</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Iceland</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Heimilisprydi</Name>
+    <No_>35963852</No_>
+    <Sales__LCY_>2024.21</Sales__LCY_>
+    <Profit__LCY_>338.31</Profit__LCY_>
+    <Country_Region_Code>IS</Country_Region_Code>
+    <City>Reykjavik</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Iceland</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>MEMA Ljubljana d.o.o.</Name>
+    <No_>38128456</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>SI</Country_Region_Code>
+    <City>Ljubljana</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Slovenia</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>EXPORTLES d.o.o.</Name>
+    <No_>38546552</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>SI</Country_Region_Code>
+    <City>Ljubljana</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Slovenia</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Centromerkur d.o.o.</Name>
+    <No_>38632147</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>SI</Country_Region_Code>
+    <City>Maribor</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Slovenia</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Deerfield Graphics Company</Name>
+    <No_>40000</No_>
+    <Sales__LCY_>1063.1</Sales__LCY_>
+    <Profit__LCY_>1063.1</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Gloucester</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Sonnmatt Design</Name>
+    <No_>41231215</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CH</Country_Region_Code>
+    <City>Glattbrugg</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Switzerland</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Pilatus AG</Name>
+    <No_>41497647</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CH</Country_Region_Code>
+    <City>Luzern</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Switzerland</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Möbel Scherrer AG</Name>
+    <No_>41597832</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CH</Country_Region_Code>
+    <City>Schaffhausen</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Switzerland</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>BYT-KOMPLET s.r.o.</Name>
+    <No_>42147258</No_>
+    <Sales__LCY_>1602.9</Sales__LCY_>
+    <Profit__LCY_>353.6</Profit__LCY_>
+    <Country_Region_Code>CZ</Country_Region_Code>
+    <City>Bojkovice</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Czech Republic</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>J &amp; V v.o.s.</Name>
+    <No_>42258258</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CZ</Country_Region_Code>
+    <City>Vracov</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Czech Republic</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>PLECHKONSTRUKT a.s.</Name>
+    <No_>42369147</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>CZ</Country_Region_Code>
+    <City>Znojmo</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Czech Republic</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Designstudio Gmunden</Name>
+    <No_>43687129</No_>
+    <Sales__LCY_>13732.6</Sales__LCY_>
+    <Profit__LCY_>11596</Profit__LCY_>
+    <Country_Region_Code>AT</Country_Region_Code>
+    <City>Gmunden</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Austria</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Michael Feit - Möbelhaus</Name>
+    <No_>43852147</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>AT</Country_Region_Code>
+    <City>Wr. Neudorf</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Austria</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Möbel Siegfried</Name>
+    <No_>43871144</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>AT</Country_Region_Code>
+    <City>Wien</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Austria</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Zuni Home Crafts Ltd.</Name>
+    <No_>44171511</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Dudley</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Afrifield Corporation</Name>
+    <No_>44180220</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Maidstone</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>London Light Company</Name>
+    <No_>44756404</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Cambridge</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Candoxy Kontor A/S</Name>
+    <No_>45282828</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>DK</Country_Region_Code>
+    <City>Arhus C</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Denmark</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Carl Anthony</Name>
+    <No_>45282829</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>DK</Country_Region_Code>
+    <City>Arhus C</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Denmark</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Ravel Møbler</Name>
+    <No_>45779977</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>DK</Country_Region_Code>
+    <City>Nyborg</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Denmark</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Lauritzen Kontormøbler A/S</Name>
+    <No_>45979797</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>DK</Country_Region_Code>
+    <City>Alborg</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Denmark</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Marsholm Karmstol</Name>
+    <No_>46251425</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>SE</Country_Region_Code>
+    <City>Halmstad</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Sweden</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Konberg Tapet AB</Name>
+    <No_>46525241</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>SE</Country_Region_Code>
+    <City>Jonkobing</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Sweden</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Englunds Kontorsmöbler AB</Name>
+    <No_>46897889</No_>
+    <Sales__LCY_>673.71</Sales__LCY_>
+    <Profit__LCY_>216.91</Profit__LCY_>
+    <Country_Region_Code>SE</Country_Region_Code>
+    <City>Norrkobing</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Sweden</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Slubrevik Senger AS</Name>
+    <No_>47523687</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>NO</Country_Region_Code>
+    <City>Asker</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Norway</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Klubben</Name>
+    <No_>47563218</No_>
+    <Sales__LCY_>11772.2</Sales__LCY_>
+    <Profit__LCY_>4120.2</Profit__LCY_>
+    <Country_Region_Code>NO</Country_Region_Code>
+    <City>Haslum</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Norway</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Sjøboden</Name>
+    <No_>47586954</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>NO</Country_Region_Code>
+    <City>Sandvika</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Norway</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Beef House</Name>
+    <No_>49525252</No_>
+    <Sales__LCY_>6000</Sales__LCY_>
+    <Profit__LCY_>2471.69</Profit__LCY_>
+    <Country_Region_Code>DE</Country_Region_Code>
+    <City>Dusseldorf</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Germany</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Autohaus Mielberg KG</Name>
+    <No_>49633663</No_>
+    <Sales__LCY_>4331.4</Sales__LCY_>
+    <Profit__LCY_>1465.67</Profit__LCY_>
+    <Country_Region_Code>DE</Country_Region_Code>
+    <City>Hamburg 36</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Germany</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Hotel Pferdesee</Name>
+    <No_>49858585</No_>
+    <Sales__LCY_>14395.75</Sales__LCY_>
+    <Profit__LCY_>4971.22</Profit__LCY_>
+    <Country_Region_Code>DE</Country_Region_Code>
+    <City>Frankfurt/Main</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Germany</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Guildford Water Department</Name>
+    <No_>50000</No_>
+    <Sales__LCY_>533.4</Sales__LCY_>
+    <Profit__LCY_>533.4</Profit__LCY_>
+    <Country_Region_Code>GB</Country_Region_Code>
+    <City>Guildford</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName>Great Britain</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Ruben Teixeira</Name>
+    <No_>50001</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code />
+    <City />
+    <Salesperson_Code />
+    <SalesPersonName />
+    <CountryRegionName />
+  </Result>
+  <Result>
+    <Name>Andre Botelho</Name>
+    <No_>50002</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code />
+    <City />
+    <Salesperson_Code />
+    <SalesPersonName />
+    <CountryRegionName />
+  </Result>
+  <Result>
+    <Name>Blanemark Hifi Shop</Name>
+    <No_>60000</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code />
+    <City>London</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName />
+  </Result>
+  <Result>
+    <Name>Fairway Sound</Name>
+    <No_>61000</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code />
+    <City>London</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName />
+  </Result>
+  <Result>
+    <Name>The Device Shop</Name>
+    <No_>62000</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code />
+    <City>London</City>
+    <Salesperson_Code>PS</Salesperson_Code>
+    <SalesPersonName>Peter Saddow</SalesPersonName>
+    <CountryRegionName />
+  </Result>
+  <Result>
+    <Name>Cronus Cardoxy Sales</Name>
+    <No_>IC1020</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>DK</Country_Region_Code>
+    <City>Copenhagen</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Denmark</CountryRegionName>
+  </Result>
+  <Result>
+    <Name>Cronus Cardoxy Procurement</Name>
+    <No_>IC1030</No_>
+    <Sales__LCY_>0</Sales__LCY_>
+    <Profit__LCY_>0</Profit__LCY_>
+    <Country_Region_Code>DE</Country_Region_Code>
+    <City>Hamburg</City>
+    <Salesperson_Code>JR</Salesperson_Code>
+    <SalesPersonName>John Roberts</SalesPersonName>
+    <CountryRegionName>Germany</CountryRegionName>
+  </Result>
+</DataSet>
